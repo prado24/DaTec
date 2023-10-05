@@ -8,3 +8,9 @@ footer p{
 .carousel-inner{
     max-height: 30rem
 }
+/* Media Query */
+@media (max-width: 768px) {
+    #intro{
+        width: 90% !important;
+    }
+}
