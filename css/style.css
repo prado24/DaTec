@@ -13,4 +13,15 @@ footer p{
     #intro{
         width: 90% !important;
     }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
 }
