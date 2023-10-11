@@ -8,9 +8,13 @@ footer p{
 .carousel-inner{
     max-height: 30rem
 }
+#img-equipo{
+    max-height: 30rem !important;
+    width: 60%;
+}
 /* Media Query */
 @media (max-width: 768px) {
-    #intro{
+    #introm #equipo{
         width: 90% !important;
     }
     .fila{
