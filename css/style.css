@@ -1,8 +1,8 @@
 
-.contenedor{
+/* .contenedor{
     width: min(90%, 120rem);
     margin: 0 auto
-}
+} */
 footer{
     background: #1b2a4e;
     min-height: 80px;
@@ -19,7 +19,7 @@ footer p{
 }
 /* Contacto */
 .centrar-texto {
-    text-align: center;
+    /* text-align: center; */
     margin: 1rem auto
 }
 .contacto-bg{
@@ -29,38 +29,37 @@ footer p{
     background-repeat: no-repeat;
 }
 .formulario {
-    background-color: white;
+    /* background-color: white; */
     margin: -5rem auto 0 auto;
     width: 95%;
     padding: 4rem;
 }
 .campo {
-    display: flex;
+    /* display: flex; */
     margin-bottom: 2rem;
 }
 .campo__label {
     flex: 0 0 5rem;
-    text-align: right;
+    /* text-align: right; */
     padding-right: 1.2rem;
 }
 .campo__field {
     flex: 1;
-    border: 1px solid #e1e1e1;
+    /* border: 1px solid #e1e1e1; */
 }
 .campo__field--textarea {
     height: 15rem;
 }
 .boton {
-    display: block;
-    font-family: var(--fuenteHeading);
-    color: white;
-    text-align: center;
+    /* display: block; */
+    /* color: white; */
+    /* text-align: center; */
     padding: .5rem 2rem;
     font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: none;
-    background: black;
+    /* text-transform: uppercase; */
+    /* font-weight: 700; */
+    /* border: none; */
+    /* background: black; */
 }
 
 /* Media Query */

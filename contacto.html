@@ -38,40 +38,40 @@
         
         <!-- Contacto -->
 
-        <main class="contenedor">
-            <h3 class="centrar-texto">Contacto</h3>
+        <main class="container">
+            <h3 class="centrar-texto text-center">Contacto</h3>
 
             <div class="contacto-bg"></div>
     
-            <form class="formulario">
-                <div class="campo">
-                    <label class="campo__label" for="nombre">Nombre</label>
+            <form class="formulario bg-white">
+                <div class="campo d-flex">
+                    <label class="campo__label text-end" for="nombre">Nombre</label>
                     <input 
-                        class="campo__field"
+                        class="campo__field border 1px solid #e1e1e1"
                         type="text" 
                         placeholder="Tu Nombre" 
                         id="nombre"
                     >
                 </div>
-                <div class="campo">
-                    <label class="campo__label" for="email">E-mail</label>
+                <div class="campo d-flex">
+                    <label class="campo__label text-end" for="email">E-mail</label>
                     <input 
-                        class="campo__field"
+                        class="campo__field border 1px solid #e1e1e1"
                         type="email" 
                         placeholder="Tu E-mail" 
                         id="email"
                     >
                 </div>
-                <div class="campo">
-                    <label class="campo__label" for="mensaje">Mensaje</label>
+                <div class="campo d-flex">
+                    <label class="campo__label text-end" for="mensaje">Mensaje</label>
                     <textarea 
-                        class="campo__field campo__field--textarea"
+                        class="campo__field campo__field--textarea border 1px solid #e1e1e1"
                         id="mensaje"
                     ></textarea>
                 </div>
     
                 <div class="campo">
-                    <input type="submit" value="Enviar" class="boton boton--primario">
+                    <input type="submit" value="Enviar" class="boton bg-black fw-bold text-uppercase text-white d-block text-center border none">
                 </div>
             </form>
         </main>
